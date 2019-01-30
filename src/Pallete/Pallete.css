@@ -1,0 +1,34 @@
+.Pallete{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ColorCircle{
+    position: relative;
+    color: white;
+    text-align: center;
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.ColorCircle > p{
+    position: absolute;
+    width: fit-content;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+
+    font-weight: 300;
+}
