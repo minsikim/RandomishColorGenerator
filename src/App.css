@@ -79,3 +79,16 @@ input[type="checkbox"]{
   margin-top: 40px;
   display: flex;
 }
+.OptionWrapper button{
+  width: 150px;
+  height: 25px;
+  background-color: #777777;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-color: #777777;
+  border-style: solid;
+}
