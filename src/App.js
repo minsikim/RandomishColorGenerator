@@ -10,8 +10,8 @@ import {RandomInt, d3} from './Methods/ColorMethods';
 
 const style = { width: "100%", margin: 20 };
 const DEFAULT_HUE = [0,360];
-const DEFAULT_CHROMA = [0,100];
-const DEFAULT_LIGHTNESS = [0,100];
+const DEFAULT_CHROMA = [20,80];
+const DEFAULT_LIGHTNESS = [20,80];
 
 
 class App extends Component {
